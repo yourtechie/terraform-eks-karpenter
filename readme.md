@@ -135,6 +135,7 @@ Confirm by typing `yes` when prompted.
      kubectl logs -n karpenter -l app.kubernetes.io/name=karpenter
      ```
    - Verify the IAM role and permissions for Karpenter.
+   - Ensure subnets in the VPC has auto assigned IP enabled.
 
 2. **Pods Stuck in Pending State**:
    - Check events:
