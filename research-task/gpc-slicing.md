@@ -124,5 +124,3 @@ Yes, GPU slicing is feasible with Karpenter. By configuring Karpenter to provisi
 2. Enable MIG on GPU nodes.
 3. Configure workloads to use GPU slices.
 4. Update Karpenter provisioner to support GPU slicing.
-
-By following these steps, your client can significantly reduce GPU costs while maintaining the performance of their AI workloads on EKS.
